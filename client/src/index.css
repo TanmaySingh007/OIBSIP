@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.flex-container {
+  display: flex !important;
+}
+
+.btn_cart {
+  background-color: red !important;
+  color: white !important;
+  border: none;
+}
+
+select {
+  border-color: black !important;
+  box-shadow: none !important;
+}
+
+.fa-plus {
+  color: green !important;
+  margin: 5px;
+}
+
+.fa-minus {
+  color: red !important;
+  margin: 5px;
+}
+
+.fa-trash {
+  color: red !important;
+}
+
+input {
+  box-shadow: none !important;
+  margin-top: 10px !important;
+}
+
+.admin_style {
+  padding: 10px;
+  background-color: rgb(1, 1, 77);
+}
+
+.admin_style li {
+  list-style-type: none !important;
+  display: inline !important;
+}
+
+.admin_style li a {
+  color: white !important;
+  padding: 20px !important;
+  text-decoration: none !important;
+}
+
+.admin_style li a:hover {
+  text-decoration: underline !important;
+}
+
+tr, td, th {
+  text-align: left;
+}
